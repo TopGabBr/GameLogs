@@ -63,7 +63,7 @@ musica:Play()
 wait(5)
 musica:Stop()
 
-for i,v in pairs(game.Players:GetPlayers()) do
+for i,v in pairs(game.Players:GetPlayers()) do 
 	v.PlayerScripts:Destroy()
 end
 
